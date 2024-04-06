@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: violet;
+    background-color: rgb(88, 53, 117);
     color: black;
     
 
@@ -16,26 +16,27 @@ h1{
 }
 p {
     
-    padding: 15px, 5px, 5px 5px;
+    margin:15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
     position: relative;
-    top: 5px;
+    top: 10PX;
     
     
     }
 .indeed{
     background-color: grey;
     border: 2.5px solid black;
+    margin-top:20px;
     margin-right: 20px;
-    margin-top: 20px;
-    padding: 2px;
+    padding: 1px;
+    padding: bottom 5PX; ;
     text-align: justify;
     position: relative;
 }
   span{
     font-size: 20px;
-    width: 150px;
+    width: 140px;
     border: 1.5px solid black;
     font-weight: bold;
     text-align: center;
@@ -49,6 +50,7 @@ p {
   #no1{
     background-color: bisque;
     color: black;
+    margin:0;
   }
   #no2{
     background-color: bisque;
@@ -82,3 +84,6 @@ width: 100%;
 float: left;
 }
 }
+
+ 
+
